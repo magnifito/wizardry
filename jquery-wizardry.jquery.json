@@ -1,0 +1,26 @@
+{
+  "name": "jquery-wizardry",
+  "title": "jQuery Wizardry",
+  "description": "Simple jQuery Wizzard Plugin",
+  "version": "1.0.0",
+  "homepage": "https://github.com/magnifito/wizardry",
+  "author": {
+    "name": "Daniel Dudin and Kiril Kirov",
+    "email": "xamctep4e@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/magnifito/wizardry"
+  },
+  "bugs": "https://github.com/magnifito/wizardry/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/magnifito/wizardry/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "2.0.0"
+  },
+  "keywords": []
+}

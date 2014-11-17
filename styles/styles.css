@@ -1,0 +1,69 @@
+body {
+    font-size: 16pt;
+}
+
+#wizard {
+    border: 1px solid blue;
+    position: relative;
+    width: 60%;
+}
+.section-header {
+    
+    border:1px solid ;
+    width:21%;
+    height:150px;
+    background-color:gray;
+}
+.section-header.active {
+    display:block;
+    background-color: #6495ED;
+}
+.section-container {
+    border: 1px solid yellow;
+    position: absolute;
+    top: 0;
+    left: 21%;
+    width: 78%;
+    height:150px;
+    margin: 0 auto;
+    display: none;
+    box-sizing: border-box;
+    height: 8%;
+
+}
+.section-container.active {
+    display: block;
+
+}
+.step{
+    border:1px solid magenta;
+    display:none;
+}
+.step.active {
+    display : block;
+}
+.edit-button {
+    display:none;
+}
+.edit-button.active {
+    display:block;
+}
+.actionBar {
+    height: 40px;
+    display:block;
+    margin: -40px 0 0 21%;
+    text-align: center;
+    border:1px solid green;
+    line-height: 35px;
+    display:none;
+}
+.actionBar.active {
+    display:block;
+}
+button {
+    width: 100px;
+    height: 25px;
+    bottom: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}

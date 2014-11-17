@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" />
+</head>
+
+<body>
+
+    <section id="wizard">
+        <section class="section">
+            <div class="section-header">Section 1
+                <a href="#" class="edit-button">edit</a>
+            </div>
+            <div class="section-container">
+
+                <div class="step">
+                    Step 1 Content
+                </div>
+                <div class="step">
+                    Step 2 Content
+                </div>
+            </div>
+            <div class="actionBar">
+                <button class="back">Back</button>
+                <button class="next">Next</button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">Section 2
+                <a href="#" class="edit-button">edit</a>
+            </div>
+            <div class="section-container">
+                <div class="step">
+                    Section 2 Content 1
+                </div>
+                <div class="step">
+                    Section 2 Content 2
+                </div>
+                <div class="step">
+                    Section 2 Content 3
+                </div>
+            </div>
+            <div class="actionBar">
+                <button class="back">Back</button>
+                <button class="next">Next</button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">Section 3
+                <a href="#" class="edit-button">edit</a>
+            </div>
+            <div class="section-container">
+                <div class="step">
+                    Section 3 Content 1
+                </div>
+                <div class="step">
+                    Section 3 Content 2
+                </div>
+                <div class="step">
+                    Section 3 Content 3
+                </div>
+            </div>
+            <div class="actionBar">
+                <button class="back">Back</button>
+                <button class="next">Next</button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">Section 4
+                <a href="#" class="edit-button">edit</a>
+            </div>
+            <div class="section-container">
+                <div class="step">
+                    Section 4 Content 1
+                </div>
+                <div class="step">
+                    Section 4 Content 2
+                </div>
+                <div class="step">
+                    Section 4 Content 3
+                </div>
+            </div>
+            <div class="actionBar">
+                <button class="back">Back</button>
+                <button class="next">Next</button>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="section-header">Section 5
+                <a href="#" class="edit-button">edit</a>
+            </div>
+            <div class="section-container">
+                <div class="step">
+                    Section 5 Content 1
+                </div>
+                <div class="step">
+                    Section 5 Content 2
+                </div>
+                <div class="step">
+                    Section 5 Content 3
+                </div>
+            </div>
+            <div class="actionBar">
+                <button class="back">Back</button>
+                <button class="next">Next</button>
+            </div>
+        </section>
+    </section>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="src/jquery-wizardry.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#wizard").wizardry({
+                onNextStep: function() {console.log("next step");},
+                onNextSection: function() {console.log("next section");},
+                onWizardEnd: function() {console.log("wizard end");}
+            });
+        });
+    </script>
+</body>
+
+</html>

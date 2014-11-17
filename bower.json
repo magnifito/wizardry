@@ -1,0 +1,18 @@
+{
+  "name": "jquery-wizardry",
+  "main": "jquery-wizardry.js",
+  "version": "1.0.0",
+  "authors": [
+    "Daniel <xamctep4e@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "qunit": "~1.15.0"
+  }
+}
