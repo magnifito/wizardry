@@ -1,6 +1,6 @@
 jQuery Wizardry Plugin
 ===============
-A jQuery wizard plugin that supports HTML5.
+A simple jQuery wizard plugin.
 
 ## Getting Started
 
@@ -32,7 +32,7 @@ Everything you need to do is:
 </html>
 ```
 
-##How to add more steps:
+##Example use:
 #####This is how your section body structure inside ```<div id="wizard"></div>``` looks like:
 
 ```html
@@ -41,7 +41,6 @@ Everything you need to do is:
                 <a href="#" class="edit-button">edit</a>
             </div>
             <div class="section-container">
-
                 <div class="step">
                     Step 1 Content 
                 </div>
@@ -56,11 +55,25 @@ Everything you need to do is:
 </section>
 ```
 
-####If you want to add more steps insert another step into the "section-container", just like that:
+##If you want to add more steps insert another step into the "section-container", just like that:
 ```html
 <div class="step">
     Content
 <div>
 ```
 
-###Next and Back button functionality:
+##Next and Back button functionality:
+#####Functions are called when the buttons are clicked, before that ,we assign the first section and step to active, if there is no next step in the current section, we move to the next section.
+
+##Aditional options:
+```html
+$("#wizard").wizardry({
+    onNextStep: function() {Do something on each step},
+    onNextSection: function() {Do something on next section},
+    onWizardEnd: function() {Do something on wizard end},
+});
+```
+
+
+
+     
