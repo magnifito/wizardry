@@ -65,7 +65,7 @@ Everything you need to do is:
 ##Next and Back button functionality:
 #####Functions are called when the buttons are clicked, before that ,we assign the first section and step to active, if there is no next step in the current section, we move to the next section.
 
-##Aditional options:
+##Additional options:
 ```html
 $("#wizard").wizardry({
     onNextStep: function() {Do something on each step},
